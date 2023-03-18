@@ -2,6 +2,7 @@ https://www.db-fiddle.com/f/s77gC6K91difutRLEhXG3x/0
 
 
 
+Base de la tienda, sin ventas
 
 https://www.db-fiddle.com/f/rU1JaeiYSMfanaXbZwUE5b/0
 
@@ -90,6 +91,51 @@ FROM producto INNER JOIN nota ON nota.clave_prod1=producto.clave_prod
 INNER JOIN cliente ON cliente.clave_clie=nota.clave_clie1;
 
 ![image](https://user-images.githubusercontent.com/113804528/226143442-bc6ef582-9d2b-4159-b481-12366a86f5ec.png)
+
+
+Izquierda es de donde sales, Derecha a donde llegas e iiner es lo que tiene interacción
+
+
+/*Modificar el iva y mostar tabla de ventas*/
+
+UPDATE nota
+INNER JOIN producto ON producto.clave_prod=nota.clave_prod1
+SET subtot=cant*precio;
+SELECT *
+FROM nota;
+
+![image](https://user-images.githubusercontent.com/113804528/226143789-867910ad-bbe2-416d-89a2-0b7f28b65a77.png)
+
+/*Modificar el subtotal y mostar tabla de ventas*/
+
+UPDATE nota
+INNER JOIN producto ON producto.clave_prod=nota.clave_prod1
+SET subtot=cant*precio;
+SELECT *
+FROM nota;
+
+![image](https://user-images.githubusercontent.com/113804528/226144211-ab13690b-0989-4e2a-b78f-287a0b9d6261.png)
+
+
+Se agrega iva y total 
+
+![image](https://user-images.githubusercontent.com/113804528/226144244-266e93eb-8454-4f95-a46b-bf3d959bd9ba.png)
+
+/*Modificar el iva y agregar total, mostar tabla de ventas*/
+
+UPDATE nota
+SET iva=subtot*iva;
+SELECT *
+FROM nota;
+
+UPDATE nota
+SET total=subtot+iva;
+SELECT *
+FROM nota;
+
+![image](https://user-images.githubusercontent.com/113804528/226144252-f958a6da-b7ad-47a9-9a2d-c90495fd9d96.png)
+
+https://www.db-fiddle.com/f/rU1JaeiYSMfanaXbZwUE5b/1
 
 
 
