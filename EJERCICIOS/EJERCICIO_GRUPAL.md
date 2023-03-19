@@ -138,4 +138,7 @@ FROM nota;
 https://www.db-fiddle.com/f/rU1JaeiYSMfanaXbZwUE5b/1
 
 
+EJERCICIO 7 moodle para terminar
+
+https://www.db-fiddle.com/f/onq7hCWQPAGG7iCEBRVVrd/1
 
