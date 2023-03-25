@@ -137,6 +137,9 @@ FROM nota;
 
 https://www.db-fiddle.com/f/rU1JaeiYSMfanaXbZwUE5b/1
 
+Base con Foreing Key
+
+https://www.db-fiddle.com/f/wGJYGrJy8emtaNq3XGS7Ff/0
 
 EJERCICIO 7 moodle para terminar
 ejercicio 6 misma pero version 0, y falta agregar el enlace entre tablas
