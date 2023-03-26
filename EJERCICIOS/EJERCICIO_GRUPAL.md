@@ -144,5 +144,5 @@ https://www.db-fiddle.com/f/wGJYGrJy8emtaNq3XGS7Ff/0
 EJERCICIO 7 moodle para terminar
 ejercicio 6 misma pero version 0, y falta agregar el enlace entre tablas
 
-https://www.db-fiddle.com/f/onq7hCWQPAGG7iCEBRVVrd/1
 
+https://www.db-fiddle.com/f/wGJYGrJy8emtaNq3XGS7Ff/1
