@@ -146,3 +146,10 @@ ejercicio 6 misma pero version 0, y falta agregar el enlace entre tablas
 
 
 https://www.db-fiddle.com/f/wGJYGrJy8emtaNq3XGS7Ff/1
+
+
+![image](https://user-images.githubusercontent.com/113804528/227748613-cd9dcb48-438e-4959-87a5-f9e2b47f52e3.png)
+
+
+Ejercicio 9
+
