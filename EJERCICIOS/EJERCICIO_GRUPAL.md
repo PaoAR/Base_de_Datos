@@ -153,3 +153,7 @@ https://www.db-fiddle.com/f/wGJYGrJy8emtaNq3XGS7Ff/1
 
 Ejercicio 9
 
+Se sigue utilizando la misma base
+
+
+
