@@ -40,3 +40,17 @@ Ejercicio completo
 LIGA DE EJERCICIO 8
 https://www.db-fiddle.com/f/8oiMV2JYH5M7Qt83bCvgoz/1
 
+
+OTROS COMANDOS
+
+DELETE
+elimina datos linea por linea, se puede configurar para que e pregunte linea por linea
+TRUNCATE
+Elimina datos todo de golpe
+
+DROP
+Elimina la estructura y los datos
+
+COALESCE
+SELECT COALESCE (Nombre_alumno, "Sin Nombre") FROM alumnos;
+renombra o cuenta las tablas que estan nulos
